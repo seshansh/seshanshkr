@@ -1,0 +1,314 @@
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #EDEDED;
+}
+
+/* ******************CSS For Clock****************** */
+
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 14vw;
+	/*to make the height and width responsive*/
+	width: 14vw;
+	background: url(/image/clock4.jpg) no-repeat;
+	/*setting our background image*/
+	background-size: 100%;
+	border-radius: 100%;
+    
+}
+
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+
+#hour {
+	width: 1.8%;
+	height: 25%;
+	top: 25%;
+	left: 48.85%;
+	opacity: 0.8;
+}
+
+#minute {
+	width: 1.6%;
+	height: 30%;
+	top: 19%;
+	left: 48.9%;
+	opacity: 0.8;
+}
+
+#second {
+	width: 1%;
+	height: 40%;
+	top: 9%;
+	left: 49.25%;
+	opacity: 0.8;
+}
+
+/* *******************CSS For Clock******************** */
+
+.top{
+    text-align: center;
+}
+
+p{
+	font-family: 'Merriweather', serif;
+}
+
+h2{
+	font-family: 'Sacramento', cursive;
+}
+
+.back{
+	position: relative;
+}
+
+.upper{
+  position: absolute;
+  transform: translate(170%,-250%);
+}
+
+.upper{
+	font-size: 2vw;
+	font-family: 'Sacramento', cursive;
+}
+
+.upper p{
+	font-weight: bold;
+}
+
+hr{
+	border-style: none;
+	border-top-style: dotted;
+	border-color: grey;
+	border-width: 0.4vw;
+	width: 5%;
+}
+
+
+.mid{
+	text-align: center;
+	position: relative;
+	color: #68B984;
+}
+
+.profile{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.profile img{
+	position: relative;
+	width: 15vw;
+	border-radius: 100%;
+}
+
+.profile h2{
+	position: relative;
+	font-size: 5vw;
+	left: 3vw;
+}
+
+.about{
+	color: #413F42;
+	font-size: 1.5vw;
+	line-height: 3vw;
+	letter-spacing: 0.1vw;
+}
+
+.ask{
+	font-size: 3.5vw;
+	color: #4E944F;
+	font-family: 'Sacramento';
+	font-weight: bold;
+}
+
+.structure{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.comp{
+	position: relative;
+	border-radius: 50%;
+	width: 18vw;
+}
+
+.comp:hover{
+	transition: 200ms ease-in-out;
+    transform: scale(1.03);
+}
+
+.fstop{
+	position: relative;
+	font-size: 4vw;
+	color: gray;
+}
+
+.struc{
+	position: relative;
+	border-radius: 50%;
+	width: 8vw;
+}
+.struc:hover{
+	transition: 200ms ease-in-out;
+    transform: scale(1.03);
+}
+
+.topic{
+	position: relative;
+	font-size: 3vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.description{
+	position: relative;
+	color: #413F42;
+	font-size: 1.5vw;
+	line-height: 3vw;
+	letter-spacing: 0.1vw;
+}
+
+.look{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.topic2{
+	position: relative;
+	font-size: 3vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+.description2{
+	position: relative;
+	/* right: 26vw; */
+	color: rgb(46, 45, 45);
+	font-size: 1.5vw;
+	line-height: 3vw;
+	letter-spacing: 0.1vw;
+}
+
+.view-point{
+	position: relative;
+}
+
+.struc2{
+	position: relative;
+	border-radius: 50%;
+	width: 8vw;
+}
+.struc2:hover{
+	transition: 200ms ease-in-out;
+    transform: scale(1.03);
+}
+
+.fstop2{
+	position: relative;
+	font-size: 4vw;
+	color: gray;
+}
+.comp2{
+	position: relative;
+	border-radius: 100%;
+	width: 18vw;
+}
+.comp2:hover{
+	transition: 200ms ease-in-out;
+    transform: scale(1.03);
+}
+
+.moveable{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.view-point2{
+	position: relative;
+}
+
+.comp3{
+	position: relative;
+	width: 15vw;
+	top: 10vw;
+}
+
+.comp3:hover{
+	transition: 200ms ease-in-out;
+    transform: scale(1.03);
+}
+
+.struc3{
+	position: relative;
+	border-radius: 100%;
+	width: 8vw;
+}
+.struc3:hover{
+	transition: 200ms ease-in-out;
+    transform: scale(1.03);
+}
+
+.topic3{
+	position: relative;
+	font-size: 3vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.description3{
+	position: relative;
+	color: rgb(46, 45, 45);
+	font-size: 1.5vw;
+	line-height: 3vw;
+	letter-spacing: 0.1vw;
+}
+
+.contact{
+	/* position: relative; */
+	display: block;
+	text-align: center;
+}
+
+.conh{
+	display: flex;
+	justify-content: center;
+}
+
+.last{
+	font-size: 4vw;
+	color: #4E944F;
+	font-family: 'Sacramento';
+	font-weight: bold;
+}
+.conh img{
+	position:relative;
+	top: 5.4vw;
+	left: 1.2vw;
+	border-radius: 50%;
+	width: 3vw;
+	height: 2.5vw;
+}
+
+.refer{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+.refer img{
+	width: 7vw;
+}
+
+#creater{
+	font-size: 1.4vw;
+}
